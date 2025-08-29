@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_edit_text"
+    android:padding="18dp"
+    android:gravity="center|start"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="8dp"
+        android:text="English" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/editText"
+        android:hint="Enter text"
+        android:background="@drawable/rounded_edit_text"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="start">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:text="Translate" />
+
+    <TextView
+        android:id="@+id/outputTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:hint="translated text"
+         />
+
+
+</LinearLayout>
